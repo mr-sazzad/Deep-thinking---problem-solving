@@ -33,7 +33,7 @@ const totalSummation = (n, m) => {
 totalSummation(10, 15)
 console.log(summation)
 
-
+//problem 3
 //area of a triangle
 
 const areaOfTriangle = (base, height) => {
@@ -41,3 +41,19 @@ const areaOfTriangle = (base, height) => {
     return area;
 }
 console.log(areaOfTriangle(4, 6));
+
+
+//problem 4
+//write a function that takes a ward and returns the new word without including the first 2 characters
+//it was tricky for me because i don't have anu idea for using slice in string method;
+
+/*
+**** slice the word;
+**** return the save part ok;
+ */
+
+const generateNewWord = (word) => {
+    const newWord = word.slice(2);
+    return newWord;
+}
+console.log(generateNewWord('samar'));
