@@ -57,3 +57,18 @@ const generateNewWord = (word) => {
     return newWord;
 }
 console.log(generateNewWord('samar'));
+
+
+// 5th problem
+//write a function that takes a array and returns the first and last element of the array ok
+
+
+const newArray = (arr) => {
+    const firstElement = arr[0];
+    const lastElement = arr[arr.length - 1];
+    return [firstElement, lastElement]
+}
+
+const array = ['sazzad', 200, 'tariq', 300, 'khalid'];
+
+console.log(newArray(array));
