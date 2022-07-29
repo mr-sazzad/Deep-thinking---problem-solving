@@ -32,3 +32,12 @@ const totalSummation = (n, m) => {
 }
 totalSummation(10, 15)
 console.log(summation)
+
+
+//area of a triangle
+
+const areaOfTriangle = (base, height) => {
+    const area = (base * height) / 2;
+    return area;
+}
+console.log(areaOfTriangle(4, 6));
